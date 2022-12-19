@@ -39,8 +39,8 @@ justify-content: space-between;
 #headerContent a {
     font-size: 40px;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #main {
@@ -56,7 +56,7 @@ background-position: center center;
   
 }
 
-#homeInfo {
+.homeInfo {
     opacity: 1;
     background-color: rgba(0, 0, 0, .5);
     color: white;
