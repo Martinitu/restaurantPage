@@ -16,19 +16,17 @@ header.appendChild(headerContent)
 
 var home = document.createElement("a");
 home.setAttribute('id', 'homeTab');
-
+home.setAttribute("href", "");
 home.innerText = "Home";
 headerContent.appendChild(home);
 
 var menu = document.createElement("a");
-menu.setAttribute("id", "menuTab");
-
+menu.setAttribute("href", "");
 menu.innerText = "Menu";
 headerContent.appendChild(menu);
 
 var contact = document.createElement("a");
-contact.setAttribute("id", "contactTab");
-
+contact.setAttribute("href", "");
 contact.innerText = "Contact";
 headerContent.appendChild(contact);
 
@@ -45,3 +43,4 @@ credit.innerText = "created by Martin I 2022";
 footer.appendChild(credit)
 
 
+home.addEventListener('click', console.log("hello"),);
