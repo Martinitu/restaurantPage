@@ -1,5 +1,5 @@
 
-a{
+a {  
     text-decoration: none;
     color: cornsilk;
 }
@@ -77,11 +77,32 @@ background-position: center center;
 #footer {
     
     background-color: rgba(0, 0, 0, .5);
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
-.fade {
 
-    opacity: 0;
-    ;
+
+.dish {
+    background-color: rgba(0, 0, 0, .5);
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+
+    width: 100px;
+    height: 100px;
+}
+
+.dishInfo {
+
+    margin-left: 10px;
+    font-size: 30px;
+
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

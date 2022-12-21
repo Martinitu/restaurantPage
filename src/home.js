@@ -6,7 +6,7 @@ header.setAttribute("id", "header" );
 content.appendChild(header);
 
 var title = document.createElement('h1');
-title.innerText = "ITAL LIVING"
+title.innerText = "I-TAL LIVITY"
 title.setAttribute("id", "title");
 header.appendChild(title)
 
